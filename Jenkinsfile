@@ -10,8 +10,7 @@ pipeline
 			{
 				echo 'Hello PyOhio!'
 				sh 'echo $PATH'
-				sh 'which docker'
-				sh 'docker version'
+				sh '/usr/local/bin/docker version'
 			}
 		}
 	}
