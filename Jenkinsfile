@@ -4,7 +4,7 @@ pipeline
 	
 	tools
 	{
-		docker 'Docker'
+		org.jenkinsci.plugins.docker.commons.tools.DockerTool 'Docker'
 	}
 	
 	stages
