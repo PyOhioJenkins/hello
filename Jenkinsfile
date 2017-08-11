@@ -9,8 +9,7 @@ pipeline
 			steps
 			{
 				echo 'Hello PyOhio!'
-				sh 'docker version'
+				sh 'echo $PATH'
 			}
 		}
-	}
 }
