@@ -2,6 +2,11 @@ pipeline
 {
 	agent any
 	
+	tools
+	{
+		docker 'Docker'
+	}
+	
 	stages
 	{
 		stage('Greeting')
